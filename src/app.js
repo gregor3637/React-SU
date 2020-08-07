@@ -5,7 +5,7 @@ import Aside from './components/aside';
 import Origamis from './components/origamis';
 import styles from './app.module.css';
 
-const Application = () => {
+const App = () => {
   return (
     <div className={styles.app}>
       <Header />
@@ -17,4 +17,4 @@ const Application = () => {
   );
 }
 
-export default Application;
+export default App;
