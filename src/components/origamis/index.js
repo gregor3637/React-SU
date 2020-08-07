@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
 import styles from './index.module.css';
+import Origam from '../origam';
 
-class Origami extends Component {
+class Origamis extends Component {
     constructor(props) {
         super(props);
 
@@ -45,4 +46,4 @@ class Origami extends Component {
     }
 }
 
-export default Origami;
+export default Origamis;
