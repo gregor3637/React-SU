@@ -25,7 +25,7 @@ class Origamis extends Component {
         const { origamis } = this.state;
         return origamis.map(origam => {
             return (
-                <Origam key={origam._id} {...origam} />
+                <Origam key={origam._id} {...origam} /> 
             )
         })
     }
