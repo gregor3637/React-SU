@@ -13,7 +13,12 @@ const Footer = (props) => {
                 {
                     links.map((navElement) => {
                         return (
-                            <Link href={navElement.link} title={navElement.title} type="footer" />
+                            <Link
+                                key={navElement.title}
+                                href={navElement.link}
+                                title={navElement.title}
+                                type="footer"
+                            />
                         )
                     })
                 }
