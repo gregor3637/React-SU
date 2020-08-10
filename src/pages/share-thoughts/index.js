@@ -12,13 +12,13 @@ const shareThoughts = (props) => {
             <Title title="Share your toughtsss..." />
             <div className={styles.conteiner}>
                 <div>
-                    <textarea className={styles.textarea}>Publications...</textarea>
+                    <textarea className={styles.textarea} defaultValue="Publications..." />
                 </div>
                 <div>
                     <SubmitButton title="Post" />
                 </div>
             </div>
-            <Origamis length={3}/>
+            <Origamis length={3} />
         </PageLayout>
     );
 };
