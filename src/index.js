@@ -9,9 +9,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <App>
-      <Navigation>
-        <Publications />
-      </Navigation>
+      <Navigation />
     </App>
   </React.StrictMode>,
   document.getElementById('root')
